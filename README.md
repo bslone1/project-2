@@ -2,7 +2,8 @@
 ETL project for NU data analytics bootcamp
 
 ## Project Proposal
-Use the data sets below to create an interface that allows users to identify healthcare surgery trends in the US. The interface will provide answers to such questions as:
+Use the data sets below to create an interface that allows users to identify healthcare procedure trends in the US. The interface will provide information on:
+
 * Average cost of surgery in the US
 * Cost variation by region
 * Surgery volume trends
