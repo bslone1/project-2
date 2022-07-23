@@ -12,5 +12,5 @@ Use the data sets below to create a database that allows users to identify healt
 Surgery Charges Across the U.S.
 https://data.world/dmikebishop/surgery-charges-across-the-u-s
 
-How to Query the Medicare Dataset
-https://www.kaggle.com/code/paultimothymooney/how-to-query-the-medicare-dataset?scriptVersionId=5165267
+Hospital Charges for Inpatients
+https://www.kaggle.com/datasets/speedoheck/inpatient-hospital-charges?resource=download&select=inpatientCharges.csv 
