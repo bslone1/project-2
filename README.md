@@ -9,6 +9,16 @@ Use the data sets below to create a database that allows users to identify hospi
 * Cost/Payment (Medicare) by DRG
 * Hospital volume trends
 
+## Extract Data Utilized
+The data used was extracted from cms.gov. A federal government website managed and paid for by the U.S. Centers for Medicare & Medicaid Services.
+
 Medicare_Inpatient_Hospital_by_Provider_and_Service_2019
 https://data.cms.gov/
 
+## Transformation
+
+## Load
+
+## Outliers
+
+## Next Steps
