@@ -25,9 +25,6 @@ After getting both datasets into their own dataframes, column names were edited 
 
 String manipulation was performed on the joined dataframe columns to remove commas and apostrophes from numerical data. 
 
-Once the two datasets were selected and extracted, the data was transformed using Python and Jupyter Notebooks. Because the datasets were so large, we selected relevant columns for our questions and dropped the rest. The columns selected were renamed for readability and ease of access. 
-
-After selecting and renaming columns, we joined the two datasets on hospital address. Only one dataset had the hospital location identification number, but both had the hospital street address.
 
 ## Load
 A relational database (SQL) was chosen in this case because the datasets are structured, there is not missing data, and the relationships between datapoints can be defined easily. 
