@@ -34,5 +34,7 @@ A relational database (SQL) was chosen in this case because the datasets are str
 As a result of the extraction and transformation of the dataset, people covered by Medicare seeking medical services can use this database to more easily compare costs per service type (DRG_code) and find/compare healthcare practitioners in their area by name and provider type. 
 
 ## Outliers
+We hit a limit on how many rows we could extract when attempting to pull from the API. This severely limited the scope of our combined dataset because we couldn't access all doctors accross all of the United States. 
 
 ## Next Steps
+The next step in this process would be to perform analysis on the cleaned dataset (once all data can be retrieved from API). Then we would work towards crafting an intuitive user interface that allows patients to see the hospitals, doctors, and costs of procedures in a given selected area. 
