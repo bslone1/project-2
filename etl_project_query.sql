@@ -1,10 +1,10 @@
 -- Query to check successful load
-SELECT * FROM premise;
+SELECT * FROM joined_df;
+SELECT * FROM hospital;
+SELECT * FROM practitioner;
 
-SELECT * FROM county;
-
--- Join tables on county_id
-SELECT premise.id, premise.premise_name, county.county_name
-FROM premise
-INNER JOIN county
-ON premise.county_id = county.county_id;
+-- Join tables on street address
+SELECT hospital."provider_CCN", hospital."DRG_desc", practitioner.provider_type
+FROM hospital
+INNER JOIN practitioner
+ON hospital.street_address = practitioner.street_address;
